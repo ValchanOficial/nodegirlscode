@@ -20,9 +20,11 @@ var _ = require('lodash');
 exports.initLocals = function (req, res, next) {
 	res.locals.navLinks = [
 		{ label: 'Home', key: 'home', href: '/' },
-		{ label: 'Blog', key: 'blog', href: '/blog' },
-		{ label: 'Gallery', key: 'gallery', href: '/gallery' },
-		{ label: 'Contact', key: 'contact', href: '/contact' },
+		{ label: 'Blog e materiais', key: 'blog', href: '/blog' },
+		{ label: 'Galeria', key: 'gallery', href: '/gallery' },
+		{ label: 'Call4Papers', key: 'call4papers', href: '/blog/post/call4papers' },
+		{ label: 'Código de conduta', key: 'conduta', href: '/blog/post/codigo-de-conduta' },
+		{ label: 'Contato', key: 'contact', href: '/contact' },
 	];
 	res.locals.user = req.user;
 	next();
