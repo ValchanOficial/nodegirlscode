@@ -9,7 +9,7 @@
 				{{# each data.posts.results}}
 				<div data-ks-editable="{{#if ../user}}{{adminEditableUrl ../../user _id}}{{/if}}" class="post">
 					<h2><a href="{{postUrl slug}}">{{{title}}}</a></h2>
-					<p class="lead text-muted">{{{categoryList categories prefix="Posted in "}}}
+					<p class="lead text-muted">{{{categoryList categories prefix="Postado em "}}}
 							{{#if author.name.first}} por {{author.name.first}}{{/if}}
 					</p>
 					{{#if image}}<img src="{{{cloudinaryUrl image width=160 height=160 crop='fit' }}}" class="img pull-right">{{/if}}
