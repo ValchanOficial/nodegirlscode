@@ -135,3 +135,7 @@ a.thumbnail.active {
 				  background-color: #fff; }
 			  .panel-primary > .panel-footer + .panel-collapse > .panel-body {
 				border-bottom-color: #d93d79; }
+
+				.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+					background-color: transparent; 
+				color: #777;}
