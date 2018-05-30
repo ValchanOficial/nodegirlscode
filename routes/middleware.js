@@ -24,7 +24,7 @@ exports.initLocals = function (req, res, next) {
 		{ label: 'Galeria', key: 'gallery', href: '/gallery' },
 		{ label: 'Call4Papers', key: 'call4papers', href: '/blog/post/call4papers' },
 		{ label: 'Código de conduta', key: 'conduct', href: '/blog/post/codigo-de-conduta' },
-		{ label: 'Eventos', key: 'events', href: '/blog/eventos' },
+		{ label: 'Eventos', key: 'events', href: '/blog/proximos-eventos' },
 		{ label: 'Vagas', key: 'jobs', href: '/blog/vagas' },
 		{ label: 'DOE!', key: 'donate', href: 'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=contato%40nodegirlscode%2eorg&lc=BR&item_name=NodeGirls&no_note=0&currency_code=BRL&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest' },
 		{ label: 'Contato', key: 'contact', href: '/contact' },
